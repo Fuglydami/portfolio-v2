@@ -3,8 +3,8 @@ import AboutInfo from "./AboutInfo";
 import "./About.css";
 import { UilDownloadAlt } from "@iconscout/react-unicons";
 
-function About({about}) {
-  const {description} = about
+function About({ about }) {
+  const { description } = about;
 
   return (
     <section className="about section" id="about">
@@ -14,10 +14,8 @@ function About({about}) {
         <img src="/assets/img/about.png" alt="" className="about__img" />
 
         <div className="about__data">
-          <p className="about__description">
-            {description}
-          </p>
-          
+          <p className="about__description">{description}</p>
+
           <div className="about__info">
             <AboutInfo title="2" name="Years experince" />
             <AboutInfo title="5+" name="Completed projects" />
@@ -25,13 +23,17 @@ function About({about}) {
           </div>
 
           <div className="about__buttons">
-            <a href="/assets/cv/Resume.pdf" className="button button--flex" target="_blank" rel="noreferrer" >
-              Download CV<UilDownloadAlt />
+            <a
+              href="https://drive.google.com/file/d/1BV6J54D5_qXDlLja1QsX3dk9NwpGg2LM/view?usp=sharing"
+              className="button button--flex"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Download CV
+              <UilDownloadAlt />
             </a>
           </div>
-
         </div>
-
       </div>
     </section>
   );
