@@ -9,6 +9,7 @@ import {
   UilMessage,
   UilStar,
   UilTimes,
+  UilAirplay,
   UilApps,
 } from "@iconscout/react-unicons";
 import Toggle from "./Toggle";
@@ -29,6 +30,7 @@ function Header() {
             <NavItem Icon={UilBriefcaseAlt} name="Skills" link="#services" />
             <NavItem Icon={UilScenery} name="Projects" link="#project" />
             <NavItem Icon={UilMessage} name="Contact" link="#contact" />
+            <NavItem Icon={UilAirplay} name="Experience" link="#experience" />
             <NavItem Icon={UilStar} name="Get a quote" />
           </ul>
           <UilTimes className="nav__close" onClick={() => setShowNav(false)} />

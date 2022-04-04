@@ -47,6 +47,23 @@ const data = {
       },
     ],
   },
+  experience: {
+    Companies: [
+      {
+        id: 1,
+        desc: "Built an Admin dashboard for the subsidiaries of First Bank of Nigeria to provide support for it mobile app. Portal was entirely built with Reactjs. Implemented Json web Token for the authentication, Used the AES.js package to encrypt the request payload being pasted to the endpoint..",
+      },
+      {
+        id: 2,
+        desc: "My role is to write and style the front-end components that meet the requirements of our mock-ups and fulfill our user stories. I also monitor and process pull requests for production deployments. Technologies used: ReactJs, JavaScript, ES6, TailwindCSS, CSS3, HTML5, Styled-Components",
+      },
+      {
+        id: 3,
+        desc: "Translated designs and wireframes into high-quality code and wrote application interface code via javaScript following React.js workflows.",
+      },
+    ],
+  },
+
   projects: [
     {
       id: 1,

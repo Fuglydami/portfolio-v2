@@ -34,6 +34,11 @@ function Footer() {
                 Contact
               </a>
             </li>
+            <li>
+              <a href="#experience" className="footer__link">
+                Experience
+              </a>
+            </li>
           </ul>
 
           <div className="footer__socials">

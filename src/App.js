@@ -6,12 +6,13 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import Project from "./Components/Project/Project";
+import Experience from "./Components/Experience/Experience";
 import Services from "./Components/Services/Services";
 import { keepTheme } from "./Utils/themes";
-import data from "./Utils/data"
+import data from "./Utils/data";
 
 function App() {
-  const {home, about, services, projects, contact} = data
+  const { home, about, experience, services, projects, contact } = data;
 
   useEffect(() => {
     keepTheme();
@@ -22,10 +23,11 @@ function App() {
       <Header />
       <main className="main">
         <Home home={home} />
-        <About about={about}/>
-        <Services services={services}/>
-        <Project projects={projects}/>
-        <Contact contact={contact}/>
+        <About about={about} />
+        <Services services={services} />
+        <Project projects={projects} />
+        <Experience experience={experience} />
+        <Contact contact={contact} />
       </main>
       <Footer />
     </>
