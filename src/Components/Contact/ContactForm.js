@@ -9,7 +9,6 @@ function ContactForm() {
     name: "",
     email: "",
     message: "",
-    to_name: "Damilare",
   });
   const [error, setError] = useState({});
   const [sent, setSent] = useState(false);
@@ -22,10 +21,13 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     const { name, email, message } = mail;
+
     const errors = validate(name, email, message);
     if (name && email && message) {
       setError({});
+
       send(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
         process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
@@ -38,7 +40,7 @@ function ContactForm() {
         .catch((err) => {
           setSent(false);
         });
-      setMail({ name: "", email: "", message: "", to_name: "Damilare" });
+      setMail({ name: "", email: "", message: "" });
     } else {
       setError({ ...errors });
     }
