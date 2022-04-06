@@ -12,6 +12,7 @@ function ContactForm() {
   });
   const [error, setError] = useState({});
   const [sent, setSent] = useState(false);
+  const [loader, setLoader] = useState(false);
 
   const handleChange = (e) => {
     const name = e.target.name;
@@ -19,16 +20,16 @@ function ContactForm() {
     setMail({ ...mail, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-
     const { name, email, message } = mail;
 
     const errors = validate(name, email, message);
     if (name && email && message) {
+      setLoader(true);
       setError({});
 
-      send(
+      await send(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
         process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         mail,
@@ -41,6 +42,7 @@ function ContactForm() {
           setSent(false);
         });
       setMail({ name: "", email: "", message: "" });
+      setLoader(false);
     } else {
       setError({ ...errors });
     }
@@ -92,7 +94,19 @@ function ContactForm() {
         </div>
         <div>
           <button className="button button--flex" onClick={handleSubmit}>
-            Send message <UilMessage />
+            Send message{" "}
+            {loader ? (
+              <div className="loadingio-spinner-dual-ring-y76a60ogklm">
+                <div className="ldio-vtjaoojajnm">
+                  <div></div>
+                  <div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <UilMessage />
+            )}
           </button>
         </div>
       </form>
