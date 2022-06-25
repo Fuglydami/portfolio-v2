@@ -24,7 +24,7 @@ function About({ about }) {
 
           <div className="about__buttons">
             <a
-              href="https://drive.google.com/file/d/1BV6J54D5_qXDlLja1QsX3dk9NwpGg2LM/view?usp=sharing"
+              href="https://drive.google.com/file/d/1bHorIeOq95zAYqBXNtJEWFHKxXrAVR14/view?usp=sharing"
               className="button button--flex"
               target="_blank"
               rel="noreferrer"
