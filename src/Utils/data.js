@@ -13,7 +13,7 @@ const data = {
     frontend: [
       {
         id: 1,
-        desc: "Javascript/TypeScript/Reactjs",
+        desc: "Javascript/TypeScript/Reactjs/React-Native",
       },
       {
         id: 2,
@@ -51,7 +51,11 @@ const data = {
     Companies: [
       {
         id: 1,
-        desc: "Built an Admin dashboard for the subsidiaries of First Bank of Nigeria to provide support for it mobile app. Portal was entirely built with Reactjs. Implemented Json web Token for the authentication, Used the AES.js package to encrypt the request payload being pasted to the endpoint..",
+        desc: `My role requires building stable and maintainable codebase using
+        ReactJs and any required technologies.
+        i collaborate with the Agile team to ensure products were efficient
+        and technically sound, likewise Working directly with client stakeholders to develop technical
+        solutions for business cases.`,
       },
       {
         id: 2,
@@ -71,23 +75,27 @@ const data = {
       demoLink: "https://subcentralportal.azurewebsites.net/",
       title: "Central Admin Dashboard",
       description:
-        "An Admin Dashboard for the subsidiaries of Firstbank of Nigeria (Guinea, Gambia, Sierra-Loane, Dr Congo) to provide support for it mobile apps",
+        "An Admin Dashboard for the subsidiaries of Firstbank of Nigeria (Guinea, Gambia, Sierra-Loane, Dr Congo) to provide support for it mobile applications",
     },
     {
       id: 2,
+      img: "/assets/img/firstbank-admin.png",
+      demoLink: "https://yapp-admin-frontend-2.azurewebsites.net/",
+      title: "Quick Response Code Retail Payment",
+      description: `First QR is a simple, secured, convenient and innovative payment
+        mode usable by scanning a QR (Quick Response) Code using a
+        payment app on phones.
+        It was implemented on the Applications Management Portal that
+        houses all First Bank customer applications
+        `,
+    },
+    {
+      id: 3,
       img: "/assets/img/ecommerce.png",
       demoLink: "https://comfy-sloth-ecommerce-website.netlify.app/",
       title: "Comfy Sloth Ecommerce Website",
       description:
         "A React Ecommerce website with stripe payment and authentication/authorization features",
-    },
-    {
-      id: 3,
-      img: "/assets/img/githubSearch.png",
-      demoLink: "https://get-github-profiles.netlify.app/login",
-      title: "Github Profile Search",
-      description:
-        "A react web-app that consumes GitHub API to request for GitHub user's data. It included error page, authorization/authentication and charts",
     },
     {
       id: 4,
