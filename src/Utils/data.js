@@ -99,7 +99,7 @@ const data = {
       id: 3,
       img: "/assets/img/qpay.jpg",
       demoLink: "https://qpay-dashboard.netlify.app/",
-      title: "Online payment gateway",
+      title: "Qpay - Online payment gateway",
       description:
         "QPay helps you settle payments on time and takes over your accounts receivable - for optimal cash and workflow.",
     },
