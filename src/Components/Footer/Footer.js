@@ -1,11 +1,11 @@
-import React from "react";
-import "./Footer.css";
 import {
   UilGithub,
-  UilTwitterAlt,
   UilLinkedinAlt,
+  UilTwitterAlt,
 } from "@iconscout/react-unicons";
+import React from "react";
 import { socialLinks } from "../../Utils/data";
+import "./Footer.css";
 
 function Footer() {
   const date = new Date();
@@ -15,7 +15,7 @@ function Footer() {
         <div className="footer__container container grid">
           <div>
             <h1 className="footer__title">Damilare Oyedeji</h1>
-            <span className="footer__subtitle">Software Developer</span>
+            <span className="footer__subtitle">Software Engineer</span>
           </div>
 
           <ul className="footer__links">

@@ -1,8 +1,8 @@
-import React from "react";
-import ExperienceContent from "./ExperienceContent";
-import "./Experience.css";
 import { UilAirplay } from "@iconscout/react-unicons";
+import React from "react";
 import data from "../../Utils/data";
+import "./Experience.css";
+import ExperienceContent from "./ExperienceContent";
 
 function Experience({ experience }) {
   return (
@@ -14,18 +14,24 @@ function Experience({ experience }) {
         <ExperienceContent
           Icon={UilAirplay}
           desc={data.experience.Companies[0].desc}
-          title="FirstBank of Nigeria - Software Developer"
+          title="Interswitch Group - Software Engineer"
           experience={experience}
         />
         <ExperienceContent
           Icon={UilAirplay}
           desc={data.experience.Companies[1].desc}
-          title="Digiscript Tech Solutions - Frontend Engineer"
+          title="FirstBank of Nigeria - Software Developer"
           experience={experience}
         />
         <ExperienceContent
           Icon={UilAirplay}
           desc={data.experience.Companies[2].desc}
+          title="Digiscript Tech Solutions - Frontend Engineer"
+          experience={experience}
+        />
+        <ExperienceContent
+          Icon={UilAirplay}
+          desc={data.experience.Companies[3].desc}
           title="Netpacks Limited - Frontend Engineer"
           experience={experience}
         />

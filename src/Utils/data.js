@@ -1,7 +1,7 @@
 const data = {
   home: {
     title: "Hi, I'm Damilare",
-    subtitle: "Software Developer",
+    subtitle: "Software Engineer",
     description:
       "A Global talent, Who takes pride in playing with different stacks and love to give breath to Ui/Ux designs.",
   },
@@ -51,6 +51,12 @@ const data = {
     Companies: [
       {
         id: 1,
+        desc: `Collaborating with product managers, OA team, UI/UX designers
+        and backend Developers in developing and shipping various features
+        on both we applications and mobile apps.`,
+      },
+      {
+        id: 2,
         desc: `My role requires building stable and maintainable codebase using
         ReactJs and any required technologies.
         i collaborate with the Agile team to ensure products were efficient
@@ -58,11 +64,11 @@ const data = {
         solutions for business cases.`,
       },
       {
-        id: 2,
+        id: 3,
         desc: "My role is to write and style the front-end components that meet the requirements of our mock-ups and fulfill our user stories. I also monitor and process pull requests for production deployments. Technologies used: ReactJs, JavaScript, ES6, TailwindCSS, CSS3, HTML5, Styled-Components",
       },
       {
-        id: 3,
+        id: 4,
         desc: "Translated designs and wireframes into high-quality code and wrote application interface code via javaScript following React.js workflows.",
       },
     ],
@@ -91,19 +97,19 @@ const data = {
     },
     {
       id: 3,
+      img: "/assets/img/qpay.jpg",
+      demoLink: "https://qpay-dashboard.netlify.app/",
+      title: "Online payment gateway",
+      description:
+        "QPay helps you settle payments on time and takes over your accounts receivable - for optimal cash and workflow.",
+    },
+    {
+      id: 4,
       img: "/assets/img/ecommerce.png",
       demoLink: "https://comfy-sloth-ecommerce-website.netlify.app/",
       title: "Comfy Sloth Ecommerce Website",
       description:
         "A React Ecommerce website with stripe payment and authentication/authorization features",
-    },
-    {
-      id: 4,
-      img: "/assets/img/chat.png",
-      demoLink: "https://chat-dami.netlify.app/",
-      title: "Chat Application",
-      description:
-        "A real time chat application with socket.io and react-hooks",
     },
   ],
   contact: {

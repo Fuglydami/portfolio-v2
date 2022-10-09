@@ -1,7 +1,7 @@
-import React from "react";
-import AboutInfo from "./AboutInfo";
-import "./About.css";
 import { UilDownloadAlt } from "@iconscout/react-unicons";
+import React from "react";
+import "./About.css";
+import AboutInfo from "./AboutInfo";
 
 function About({ about }) {
   const { description } = about;
@@ -24,7 +24,7 @@ function About({ about }) {
 
           <div className="about__buttons">
             <a
-              href="https://drive.google.com/file/d/1bkCdt3WKXKLqqDc6XJU9gOlLaJLjix4w/view?usp=sharing"
+              href="https://drive.google.com/file/d/1En6-Ujn4g2IvUKT1-iKkKmCKh33So6gb/view?usp=sharing"
               className="button button--flex"
               target="_blank"
               rel="noreferrer"
