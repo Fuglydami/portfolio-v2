@@ -7,7 +7,7 @@ const data = {
   },
   about: {
     description:
-      "A self-motivated and enthusiatic Front-End Developer who is passionate about writing clean and structured code. I am also committed to both personal and professional growth learning from any situation in which i find myself. As long as i collaborate with people who build on my interest in the field of technology, I can overcome every hurdle Cheers, you now know about me",
+      "A self-motivated and enthusiatic Software Engineer who is passionate about writing clean and structured code. I am also committed to both personal and professional growth learning from any situation in which i find myself. As long as i collaborate with people who build on my interest in the field of technology, I can overcome every hurdle Cheers, you now know about me",
   },
   services: {
     frontend: [
@@ -77,6 +77,14 @@ const data = {
   projects: [
     {
       id: 1,
+      img: "/assets/img/quickteller-paypoint.png",
+      demoLink: "https://paypoint.quickteller.com/",
+      title: "Quickteller Paypoint Agent Portal",
+      description:
+        "Quickteller Paypoint is a robust consumer services platform for convenient Airtime Recharge, Funds Transfer, Bill Payments, Cash Deposits, Cash Withdrawals and Insurance.",
+    },
+    {
+      id: 2,
       img: "/assets/img/admin.png",
       demoLink: "https://subcentralportal.azurewebsites.net/",
       title: "Central Admin Dashboard",
@@ -84,7 +92,7 @@ const data = {
         "An Admin Dashboard for the subsidiaries of Firstbank of Nigeria (Guinea, Gambia, Sierra-Loane, Dr Congo) to provide support for it mobile applications",
     },
     {
-      id: 2,
+      id: 3,
       img: "/assets/img/firstbank-admin.png",
       demoLink: "https://yapp-admin-frontend-2.azurewebsites.net/",
       title: "Quick Response Code Retail Payment",
@@ -96,7 +104,7 @@ const data = {
         `,
     },
     {
-      id: 3,
+      id: 4,
       img: "/assets/img/qpay.jpg",
       demoLink: "https://qpay-dashboard.netlify.app/",
       title: "Qpay - Online payment gateway",
@@ -104,7 +112,7 @@ const data = {
         "QPay helps you settle payments on time and takes over your accounts receivable - for optimal cash and workflow.",
     },
     {
-      id: 4,
+      id: 5,
       img: "/assets/img/ecommerce.png",
       demoLink: "https://comfy-sloth-ecommerce-website.netlify.app/",
       title: "Comfy Sloth Ecommerce Website",
