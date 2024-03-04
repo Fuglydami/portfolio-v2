@@ -15,7 +15,7 @@ const data = {
     frontend: [
       {
         id: 1,
-        desc: 'Javascript/TypeScript/Reactjs/React-Native',
+        desc: 'Javascript/TypeScript/Reactjs/NextJs/React-Native',
       },
       {
         id: 2,
