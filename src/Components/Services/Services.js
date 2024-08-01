@@ -11,7 +11,7 @@ function Services({ services }) {
         <title>Damilare Oyedeji - Software Engineer</title>
         <meta
           name='description'
-          content='Very vast in these technologies; JavaScript, TypeScript, ReactJs, React Native, BitBucket, Jira, Azure, Git/Github, Styled-Component, Tailwind CSS, Node, MongoDB...'
+          content='Very vast in these technologies; JavaScript, TypeScript, ReactJs,NextJs, React Native, BitBucket, Jira, Azure, Git/Github, Styled-Component, Tailwind CSS, Node, MongoDB...'
         />
         <link rel='canonical' href='/#services' />
       </Helmet>
