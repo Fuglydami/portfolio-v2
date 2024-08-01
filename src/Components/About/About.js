@@ -27,14 +27,14 @@ function About({ about }) {
             <p className='about__description'>{description}</p>
 
             <div className='about__info'>
-              <AboutInfo title='4' name='Years of experience' />
+              <AboutInfo title='5' name='Years of experience' />
               <AboutInfo title='7+' name='Completed projects' />
               <AboutInfo title='4' name='Companies worked' />
             </div>
 
             <div className='about__buttons'>
               <a
-                href='https://drive.google.com/file/d/1wl4gih4uv9Dgq9MM90TkNQON7to6_jfz/view?usp=sharing'
+                href='https://drive.google.com/file/d/1WdSk1vvosdZBiI6QLrpHWIesJWyPV8nq/view?usp=sharing'
                 className='button button--flex'
                 target='_blank'
                 rel='noreferrer'
